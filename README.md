@@ -1,2 +1,3 @@
-# luyx-management-wrapper
-An API wrapper for luyx-management
+# {project-name}
+{project-description}
+
