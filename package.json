@@ -1,9 +1,13 @@
 {
-	"name": "{project-name}",
+	"name": "project-name",
 	"version": "1.0.0",
 	"description": "{project-description}",
 	"main": "build/index.js",
-	"author": "{author}",
+	"author": {
+		"name": "Luyx Development",
+		"email": "contact@luyx.dev",
+		"url": "https://luyx.dev"
+	},
 	"license": "MIT",
 	"type": "module",
 	"imports": {
@@ -14,7 +18,7 @@
 	},
 	"homepage": "https://github.com/LuyxDevelopment/{project-name}#readme",
 	"devDependencies": {
-		"@types/node": "^18.0.3",
+		"@types/node": "^18.8.0",
 		"@typescript-eslint/eslint-plugin": "^5.30.5",
 		"@typescript-eslint/parser": "^5.30.5",
 		"eslint": "^8.19.0",
